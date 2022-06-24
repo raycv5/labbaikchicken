@@ -1,3 +1,19 @@
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #fff;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #C0392B;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -9,8 +25,8 @@ img {
 }
 
 h2 {
-font-family: 'Heebo', sans-serif;
-  font-weight: 700;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
 }
 
 .navbar {
@@ -18,14 +34,12 @@ font-family: 'Heebo', sans-serif;
 }
 
 .top-navbar {
-  background-color: #FBEEE6;
   font-weight: 700;
 }
 
 .bottom-navbar {
   background-color: #C0392B;
   font-weight: 700;
-  border-bottom: 3px solid #641E16;
 }
 
 nav img {
@@ -79,6 +93,11 @@ nav img {
 
 .featured-item {
   padding: 5px;
+  transition: transform 1s;
+}
+
+.featured-item:hover {
+  transform: scale(1.02);
 }
 
 .product-name h3 {
@@ -118,7 +137,7 @@ nav img {
 .visit-section {
   background-color: #C0392B;;
   text-align: center;
-  padding: 2% 15%;
+  padding: 5% 15%;
 }
 
 .visit-btn {
