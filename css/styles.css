@@ -193,3 +193,10 @@ i:hover {
   text-align: center;
   color: #fff;
 }
+
+.footer-wrd {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+	margin: 0 auto 30px;
+	color: #C0392B;
+}
